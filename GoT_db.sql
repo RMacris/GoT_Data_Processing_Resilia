@@ -24,8 +24,8 @@ DROP TABLE IF EXISTS `characters`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `characters` (
   `id` int NOT NULL,
-  `Character` text,
-  `Actor/ess` text,
+  `Perso` text,
+  `Actor` text,
   `Episodes_appeared` int DEFAULT NULL,
   `First_appearance` int DEFAULT NULL,
   `Last_appearance` int DEFAULT NULL,
