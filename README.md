@@ -8,7 +8,7 @@ O projeto de encerramento do módulo 3 tem como objetivo analisar o banco de dad
 ## Tecnologias utilizadas
 ### Tech:
 
-- Excell
+- Excel
 - Google Sheets
 - MySQL
 
