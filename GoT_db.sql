@@ -1,4 +1,3 @@
-use got;
 -- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: got
@@ -24,6 +23,7 @@ DROP TABLE IF EXISTS `characters`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `characters` (
+
   `id` int DEFAULT NULL,
   `perso` text,
   `actor` text,
