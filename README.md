@@ -1,5 +1,5 @@
 # Análise da database de Game of Thrones
-![game-of-thrones-poster](https://user-images.githubusercontent.com/93748083/153684044-f0db960c-4b90-4f95-b827-92ab2d813566.jpg)
+![got](https://user-images.githubusercontent.com/93748083/153685896-19332739-4f6e-487d-96b2-fdf84e7e8b3b.jpg)
 Link do banco de dados:  https://drive.google.com/drive/folders/1vWOXld-1rxQsFj0_QhtEpaAvD0Fbwefx
 
 ## Introdução
