@@ -32,10 +32,20 @@ Por meio de análises e pesquisas, buscamos entender o grande impacto de uma das
 ### Exemplo de gráfico adquirido pelo Excell
 ![Medias_das_Avaliacoes_por_Temporada](https://user-images.githubusercontent.com/93748083/153685067-5e070a40-ea5a-4f4d-a638-37bfba7a8ad5.png)
 
-**Query**
+- **Query**
 ```jsx
-Select Season, avg(Rating) as medias_notas from episodes
-group by Season order by Season asc;
+SELECT Season, avg(Rating) as medias_notas from episodes
+GROUP BY Season 
+ORDER BY Season asc;
+```
+
+![media_de_cada_temporada](https://user-images.githubusercontent.com/93748083/153686494-26fbc9cf-fc61-4943-bc7c-0c3f2247f44d.png)
+
+- **Query**
+```jsx
+SELECT distinct Season , avg(users_reviews) as avg_users_reviews, avg(critics_reviews) as avg_critics_reviews, avg(us_viewers) as avg_us_viewers , avg(Rating) as avg_rating from episodes
+GROUP BY Season 
+ORDER BY Season asc, avg_rating desc;
 ```
 
 ## Equipe
